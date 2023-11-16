@@ -8,7 +8,6 @@ import emailjs from 'emailjs-com'
 const Contact = () => {
 
   const form = useRef();
-  const email = 'anishashahini2002@gmail.com'
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -35,13 +34,13 @@ const Contact = () => {
             <AiOutlineMail className='contact_option-icons'/>
             <h4>Email</h4>
             <h5>anishashahini2002@gmail.com</h5>
-            <a href= "mailto:anishashahini2002@gmail.com" target='_blank'>Send a message</a>
+            <a href= "mailto:anishashahini2002@gmail.com" target='_blank'rel="noopener noreferrer">Send a message</a>
           </article>
           <article className='contact_option'>
             <AiOutlineInstagram className='contact_option-icons'/>
             <h4>Instagram</h4>
             <h5>excujmee_grl</h5>
-            <a href="https://www.instagram.com/excujmee_grl/" target='_blank'>Send a message</a>
+            <a href="https://www.instagram.com/excujmee_grl/" target='_blank' rel="noopener noreferrer">Send a message</a>
           </article>
         </div>
         {/*END OF THE FORM  */}

@@ -6,9 +6,9 @@ import {BsInstagram} from 'react-icons/bs'
 const HesderSocials = () => {
   return (
     <div className='header__socials'>
-        <a href="https://linkedin.com" target='_blank'><BsLinkedin/></a>
-        <a href="https://github.com" target='_blank'><BsGithub/></a>
-        <a href="https://instagram.com" target='_blank'><BsInstagram/></a>
+        <a href="https://www.linkedin.com/in/anishashahini/" target='_blank'  rel="noopener noreferrer"><BsLinkedin/></a>
+        <a href="https://github.com/ANISHASHAHINI/" target='_blank'  rel="noopener noreferrer"><BsGithub/></a>
+        <a href="https://www.instagram.com/excujmee_grl/" target='_blank'  rel="noopener noreferrer"><BsInstagram/></a>
     </div>
   )
 }
