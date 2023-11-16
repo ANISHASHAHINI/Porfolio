@@ -3,8 +3,8 @@ import './education.css'
 import {VscDebugBreakpointLog} from 'react-icons/vsc'
 const Education = () => {
   return (
-    <section id='Education'>
-      <h5>Whar I Studied</h5>
+    <section id='education'>
+      <h5>What I Studied</h5>
       <h2>My Educations</h2>
 
       <div className=" container container_education">
