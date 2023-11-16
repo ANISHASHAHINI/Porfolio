@@ -6,7 +6,7 @@ import HesderSocials from './HesderSocials'
 
 const Header = () => {
   return (
-    <header>
+    <header id='home'>
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h2>Anisha shahini</h2>
